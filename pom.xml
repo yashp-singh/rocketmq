@@ -92,6 +92,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.root>${basedir}</project.root>
+        <harnessArgLine></harnessArgLine>
 
         <!-- Maven properties -->
         <maven.test.skip>false</maven.test.skip>
@@ -379,6 +380,7 @@
                     <excludes>
                         <exclude>**/IT*.java</exclude>
                     </excludes>
+                    <argLine>${harnessArgLine}  @{argLine} </argLine>
                 </configuration>
             </plugin>
             <plugin>
