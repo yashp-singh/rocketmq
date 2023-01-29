@@ -75,7 +75,7 @@ $ nohup sh mqnamesrv &
 
 ### check whether Name Server is successfully started
 $ tail -f ~/logs/rocketmqlogs/namesrv.log
-The Name Server boot success...
+The Name Server boot success....
 ```
 
 For Windows users, you need set environment variables first:
